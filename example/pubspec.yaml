@@ -1,0 +1,22 @@
+name: bluetooth_example
+description: Demonstrates how to use the bluetooth plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    cupertino_icons: ^0.1.2
+    bluetooth: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  bluetooth:
+    path: ../
+
+flutter:
+  uses-material-design: true
